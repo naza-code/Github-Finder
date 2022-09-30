@@ -21,4 +21,26 @@
 .badgestwo {
   margin-top: 1rem;
 }
+
+@media (max-width: 600px) {
+  .maincontainer {
+    display: block;
+  }
+  .badges {
+    margin-top: 3rem;
+    margin-left: 0.25rem;
+  }
+  .contentrepo {
+    display: block;
+    width: 70vw;
+    margin-left: 2.5rem;
+  }
+  .thirdheading {
+    color: blue;
+    margin-left: 2.5rem;
+  }
+  .badgestwo {
+    margin-top: 1rem;
+  }
+}
 /*# sourceMappingURL=mobile.css.map */

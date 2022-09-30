@@ -6,8 +6,12 @@ class Github{
   }
 
   async getUsers(user){
-  const response= await fetch(`https://api.github.com/users/${user}?key${this.key}`);
-  const Reporesponse= await fetch(`https://api.github.com/users/${user}/repos?per_page=${this.repos_count}& sort=${this.sort}`);
+  const response= await fetch(`https://api.github.com/users/${user}`, {
+    headers: {
+      'Authorization': this.key
+    }
+  });
+  const Reporesponse= await fetch(`https://api.github.com/users/${user}/repos?per_page=${this.repos_count}& sort=${this.sort}?key=${this.key}`);
 
   const profile= await response.json();
   const repo= await Reporesponse.json();

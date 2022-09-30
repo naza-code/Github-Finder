@@ -25,5 +25,30 @@
 }
 
 @media (max-width:'600px'){
-
+  .maincontainer{
+    display: block;
+  }
+  
+  .badges {
+    margin-top: 3rem;
+    margin-left: 0.25rem;
+    // background-color: red;
+  }
+  
+  .contentrepo{
+    display: block;
+    // justify-content: space-between;
+    width: 70vw;
+    margin-left: 2.5rem;
+  }
+  
+  .thirdheading{
+    color: blue;
+    margin-left: 2.5rem;
+  }
+  
+  .badgestwo{
+    margin-top: 1rem;
+  }
+  
 }
