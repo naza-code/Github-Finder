@@ -1,0 +1,185 @@
+body{
+  background-color: #fff;
+}
+
+// *{
+//   margin: 0;
+//   padding: 0;
+// }
+
+
+.navbar{
+  background-color: rgb(1, 28, 39);
+  font-size: 2rem;
+  text-align: center;
+  a{
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+.container{
+  text-align: center;
+  color: #333;
+}
+
+input{
+  padding: 0.4rem;
+  width: 50%;
+}
+
+input:focus{
+  outline: none;
+  border-color: blue; 
+}
+
+.footer-test{
+  text-align: center;
+  border-bottom: 1px solid rgb(1, 28, 39);
+  color: rgb(1, 28, 39);
+  // background: rgb(1, 28, 39);
+  margin-top: 1rem;
+  padding: 0.25rem;
+  // font-size: rem;
+}
+
+
+#error{
+  background: red;
+  color: #fff;
+  padding: 1rem;
+  display: none;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 1rem;
+}
+
+
+.maincontainer{
+  display: flex;
+  // grid-template-columns: repeat(2,1fr);
+  // align-items: center;
+  // div{
+  //   flex: 1;
+  // }
+  margin: auto;
+  max-width: 1100px;
+}
+
+.img{
+  width: 200px;
+}
+
+.btn{
+  background-color: rgb(1, 28, 39);
+  color: #fff;
+  padding: 0.35rem;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-top: 2rem;
+  transition: all 3s;
+}
+
+.btn:hover{
+  background-color: #fff;
+  color: rgb(1, 28, 39);
+}
+
+li{
+  list-style: none;
+  margin-top: 1rem;
+  border-bottom: 1px solid blue;
+  // border-bottom: 1px solid palevioletred;
+  
+}
+
+ul{
+  // border: 1px solid palevioletred;
+}
+
+.bgdark{
+  background-color: rgb(1, 28, 39);
+  color: #fff;
+  padding: 0.35rem;
+  border-radius: 4px;
+}
+
+.bgpink{
+  background-color: palevioletred;
+  color: #fff;
+  padding: 0.35rem;
+  border-radius: 4px;
+}
+
+.bglight{
+  background-color: blue;
+  color: #fff;
+  padding: 0.35rem;
+  border-radius: 4px;
+}
+.bggreen{
+  background-color: green;
+  color: #fff;
+  padding: 0.35rem;
+  border-radius: 4px;
+}
+
+.badges{
+  margin-left: 2rem;
+}
+
+.button{
+  margin-top: 1rem;
+}
+
+
+.contentrepo{
+  display: flex;
+  justify-content: space-between;
+  width: 70vw;
+  border: 1px solid #ddd;
+  margin-bottom: 0.5rem;
+  padding: 1rem;
+  // margin-left: 8rem;
+
+  a{
+    color: #333;
+    text-decoration: none;
+  }
+}
+
+.repocontainer{
+  margin: auto;
+  max-width: 1100px;
+}
+.bgpinks{
+  background-color: palevioletred;
+  color: #fff;
+  padding: 0.15rem;
+  border-radius: 4px;
+}
+
+.bglights{
+  background-color: blue;
+  color: #fff;
+  padding: 0.15rem;
+  border-radius: 4px;
+}
+.bggreens{
+  background-color: green;
+  color: #fff;
+  padding: 0.15rem;
+  border-radius: 4px;
+}
+
+.bgdarks{
+  background-color: rgb(1, 28, 39);
+  color: #fff;
+  padding: 0.15rem;
+  border-radius: 4px;
+}
+
+.thirdheading{
+  color: blue;
+  margin-left: 2rem;
+}
