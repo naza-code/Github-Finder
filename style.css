@@ -110,6 +110,7 @@ li {
 
 .badges {
   margin-left: 2rem;
+  display: block;
 }
 
 .button {
