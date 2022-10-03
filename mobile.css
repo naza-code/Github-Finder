@@ -7,22 +7,6 @@
   margin-left: 0.25rem;
 }
 
-.bggreen {
-  background-color: green;
-  color: #fff;
-  padding: 0.15rem;
-  border-radius: 4px;
-  margin-top: 0.75rem;
-}
-
-.bgpink {
-  background-color: palevioletred;
-  color: #fff;
-  padding: 0.15rem;
-  border-radius: 4px;
-  margin-top: 0.75rem;
-}
-
 .contentrepo {
   display: block;
   width: 70vw;
@@ -58,5 +42,9 @@
   .badgestwo {
     margin-top: 1rem;
   }
+}
+
+#mainbadge {
+  margin-top: 0.75rem;
 }
 /*# sourceMappingURL=mobile.css.map */

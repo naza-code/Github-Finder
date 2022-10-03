@@ -17,7 +17,9 @@ class UI{
      <div class="badges">
      <span class="Badge bgdark">Public Repos:${user.public_repos}</span>
      <span class="Badge bglight">Public Gists:${user.public_gists}</span>
+     
      <span class="Badge bggreen">Followers:${user.followers}</span>
+     
      <span class="Badge bgpink">Following:${user.following}</span>
      </div>
 
